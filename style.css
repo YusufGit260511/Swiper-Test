@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Quantico:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+* {margin: 0;padding: 0;box-sizing: border-box;list-style: none;text-decoration: none;}
+body{font-family: "Poppins", serif;width: 100%;height: 1117px;padding: 54px 155px 204px 155px;}
+.nav{color: #1C1415;display: flex;align-items: center;font-size: 24px;font-weight: 500px;line-height: 36px;justify-content: space-between;}
+.ulbtn{display: flex;gap: 108px;align-items: center;}
+.nav-ul{display: flex;gap: 90px;}
+.nav_btn{width: 168px;height: 64px;background-color: #1C1415;color: white;border: none;border-radius: 50px;font-family: "Poppins", serif;font-size: 24px;font-weight: 500;}
+.main{margin-top: 144px;display: flex;align-items: center;justify-content: space-between;}
+.texts{font-family: "Sofia Sans", sans-serif;display: flex;flex-direction: column;gap: 69px;}
+.texts-texts{display: flex;flex-direction: column;gap: 70px;}
+.h1{font-size: 48px;font-weight: 750;line-height: 70.12px;color: white;letter-spacing: -1%;}
+.h3{font-style: 40px;font-weight: 800;line-height: 60.06px;letter-spacing: -1%;color: white;}
+.black{color: #1C1415;}
+.p{width: 550px;font-size: 24px;font-weight: 600;line-height: 45.6px;color: #1C1415CC;font-family: 'Poppins', serif;}
+.price{font-size: 70px;font-weight: 700;line-height: 95.9px;letter-spacing: -1%;color: white;font-family: 'Poppins', serif;}
+.swiper{width: 650px;}
+.logos{width: 240px;}
+.swiper-slide img {margin-left: 70px;}
+.custom-prev, .custom-next {position: absolute;top: 50%;transform: translateY(-50%);cursor: pointer;z-index: 10;}
+.custom-prev {left: 10px;}
+.custom-next {right: 10px;}
+.custom-prev img, .custom-next img {width: 75px;height: 75px;}
